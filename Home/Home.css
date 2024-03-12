@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: none;
+}
+
+/* NAVBAR */
+
+.nav {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+}
+
+#logo{
+    width: 80px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 90px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.search-container{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.search-input{
+    height: 30px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.search-input p{
+    margin-left: 20px;
+}
+
+#profil{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.d-flex input{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+/* Hewan Peliharaan */
+
+.content-fluid{
+    margin-top: 100px;
+    background-color: #9BB8E4;
+    overflow-x: hidden;
+}
+
+.isi{
+    padding: 50px;
+}
+
+.isi h2{
+    color: white;
+    font-weight: bold;
+}
+
+.hewan{
+    margin-left: 60px;
+}
+
+.kucing{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.kucing h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.kucing p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.kucing img{
+    margin-left: 10px;
+    width: 70px;
+}
+
+
+.burung{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.burung h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.burung p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.burung img{
+    width: 120px;
+}
+
+.reptil{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.reptil h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.reptil p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.reptil img{
+    margin-left: 13px;
+    margin-top: 6px;
+    width: 120px;
+}
+
+.anjing{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.anjing h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.anjing p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.anjing img{
+    margin-left: 13px;
+    margin-top: 6px;
+    width: 70px;
+    height: 80px;
+}
+
+.ikan{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.ikan h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.ikan p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.ikan img{
+    margin-left: 13px;
+    margin-top: 6px;
+    width: 120px;
+}
+
+.lainya{
+    width: 320px;
+    border-radius: 20px;
+    background-color: #3D5E90;
+    margin-top: 30px;
+}
+
+.lainya h5{
+    color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.lainya p{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.lainya img{
+    margin-left: 25px;
+    margin-top: 6px;
+    width: 64px;
+}
+
+/* Our Services */
+
+#service{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.pelayanan{
+    margin-top: 50px;
+}
+
+.s1{
+    background-color: #B48970;
+    margin-top: 20px;
+    width: 250px;
+    height: 280px;
+}
+.s1 h3{
+    color: white;
+}
+.s1 p{
+    color: white;
+    font-size: 15px;
+    height: 65px;
+}
+.s1 img{
+    position: absolute;
+    margin-left: 60px;
+    width: 180px;
+}
+
+.s2{
+    background-color: #7685AC;
+    margin-top: 20px;
+    width: 250px;
+    height: 280px;
+}
+.s2 h3{
+    color: white;
+}
+.s2 p{
+    color: white;
+    font-size: 15px;
+    height: 55px;
+}
+.s2 img{
+    position: absolute;
+    margin-left: 70px;
+    width: 180px;
+}
+
+.s3{
+    background-color: #717D82;
+    margin-top: 20px;
+    width: 250px;
+    height: 280px;
+}
+.s3 h3{
+    color: white;
+}
+.s3 p{
+    color: white;
+    font-family: 15px;
+    height: 70px;
+}
+.s3 img{
+    position: absolute;
+    margin-left: 90px;
+    width: 150px;
+}
+
+.s4{
+    background-color: #B78097;
+    margin-top: 20px;
+    width: 250px;
+    height: 280px;
+}
+.s4 h3{
+    color: white;
+}
+.s4 p{
+    color: white;
+    font-size: 15px;
+}
+.s4 img{
+    position: absolute;
+    margin-left: 60px;
+    width: 180px;
+}
+
+/* Produk Terlaris */
+.content-produk{
+    margin-top: 140px;
+    background-color: #C3C072;
+}
+.content-produk h2{
+    color: white;
+}
+.content-produk img{
+    width: 210px;
+}
+.isi-produk{
+    width: 1420px;
+}
